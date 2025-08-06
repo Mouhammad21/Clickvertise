@@ -7,3 +7,8 @@ module.exports = {
     return cfg;
   },
 };
+const nextConfig = {
+  output: 'export',
+};
+
+module.exports = nextConfig;
