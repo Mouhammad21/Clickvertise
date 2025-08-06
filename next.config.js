@@ -1,14 +1,12 @@
-module.exports = {
-  webpack: (cfg) => {
-    cfg.module.rules.push({
+const nextConfig = {
+  output: 'export',
+  webpack: (config) => {
+    config.module.rules.push({
       test: /\.md$/,
       loader: 'frontmatter-markdown-loader',
     });
-    return cfg;
+    return config;
   },
-};
-const nextConfig = {
-  output: 'export',
 };
 
 module.exports = nextConfig;
