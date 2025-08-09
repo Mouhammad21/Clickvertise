@@ -44,4 +44,23 @@
     "pretty-quick": "3.0.2",
     "typescript": "4.0.3"
   }
+},
+{
+  "name": "clickvertise",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && next export",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "14.2.3",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "engines": {
+    "node": "20.x"
+  }
 }
+
