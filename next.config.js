@@ -1,12 +1,8 @@
 const nextConfig = {
   output: 'export',
-  webpack: (config) => {
-    config.module.rules.push({
-      test: /\.md$/,
-      loader: 'frontmatter-markdown-loader',
-    });
-    return config;
-  },
-};
+  images: {
+    unoptimized: true
+  }
+}
 
-module.exports = nextConfig;
+module.exports = nextConfig
